@@ -1,5 +1,5 @@
 import flask
-from fast_sentence_transformers import FastSentenceTransformer as SentenceTransformer
+from sentence_transformers import SentenceTransformer
 import json
 
 # The flask app for serving predictions
