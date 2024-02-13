@@ -48,4 +48,6 @@ def transformation():
 
 
 if __name__ == '__main__':
+    # ⚠️ For the sake of testing convenience, this 'debug=True' settings have been configured.
+    # It is recommended to include guidance suggesting disabling debug mode when deploying in a real production environment.
     app.run('127.0.0.1', port=5001, debug=True)
