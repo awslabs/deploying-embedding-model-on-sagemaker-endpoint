@@ -4,7 +4,7 @@
 
 FROM ubuntu:18.04
 
-MAINTAINER AWS ProServe GAIA <hijaeeun@amazon.com>
+LABEL maintainer="MAINTAINER_NAME <maintainer_email@amazon.com>"
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget \
